@@ -1,11 +1,8 @@
-package com.example.watchtime.data.network
+package com.example.watchtime.data.repository
 
 import com.example.watchtime.data.model.MovieResponse
 import com.example.watchtime.data.model.ResponseList
-import retrofit2.http.GET
 
-interface ApiService {
-
-    @GET("")
+interface IRepository {
     suspend fun getMovies(): ResponseList<MovieResponse>
 }
