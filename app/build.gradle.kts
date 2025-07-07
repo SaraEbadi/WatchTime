@@ -56,7 +56,7 @@ dependencies {
     implementation(libs.androidx.hilt.navigation)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.retrofit.core)
+    implementation(libs.retrofit)
     implementation(libs.retrofit.kotlin.serialization)
     api(libs.okhttp3.logging.interceptor)
     testImplementation(libs.junit)
